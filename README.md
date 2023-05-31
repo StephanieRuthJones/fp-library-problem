@@ -1,15 +1,14 @@
-//INSTRUCTIONS
-//Use a fp approach to writing a program that creates the output object below:
-// {
-//   classic: ["The Catcher in the Rye", "The Godfather", "Casablanca"],
-//   fantasy: [
-//     "The Lord of the Rings",
-//     "Harry Potter and the Philosopher's Stone",
-//     "Coraline (2009) movie posterAmazon.comCoraline",
-//   ],
-//   dystopian: ["1984", "Divergent", "The Hunger Games", "The Maze Runner"],
-// }
+# Functional Programming - Library Practice Problem
 
+## Problem
+
+Write a program that takes in the `library` object ( _INPUT_ below) as input and
+outputs an object with genres as keys assigned to arrays of book and movie
+titles within that genre ( _OUTPUT_ below).
+
+_INPUT_
+
+```
 const library = {
   books: [
     {
@@ -66,3 +65,18 @@ const library = {
     },
   ],
 };
+```
+
+_OUTPUT_
+
+```
+{
+    classic: ["The Catcher in the Rye", "The Godfather", "Casablanca"],
+    fantasy: [
+      "The Lord of the Rings",
+      "Harry Potter and the Philosopher's Stone",
+      "Coraline (2009) movie posterAmazon.comCoraline",
+    ],
+    dystopian: ["1984", "Divergent", "The Hunger Games", "The Maze Runner"],
+}
+```
