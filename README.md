@@ -76,7 +76,7 @@ _OUTPUT_
     fantasy: [
       "The Lord of the Rings",
       "Harry Potter and the Philosopher's Stone",
-      "Coraline (2009) movie posterAmazon.comCoraline",
+      "Coraline",
     ],
     dystopian: ["1984", "Divergent", "The Hunger Games", "The Maze Runner"],
 }
