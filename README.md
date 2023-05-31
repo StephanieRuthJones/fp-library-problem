@@ -2,9 +2,10 @@
 
 ## Problem
 
-Write a program that takes in the `library` object ( _INPUT_ below) as input and
-outputs an object with genres as keys assigned to arrays of book and movie
-titles within that genre ( _OUTPUT_ below).
+Write a program that uses a functional programming approach. It should take in
+the `library` object ( _INPUT_ below) as input and output an object with genres
+as keys assigned to arrays of book and movie titles within that genre ( _OUTPUT_
+below).
 
 _INPUT_
 
