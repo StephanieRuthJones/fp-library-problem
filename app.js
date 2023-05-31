@@ -67,7 +67,6 @@ const library = {
   ],
 };
 
-
 //---- SOLUTION ----//
 // A function that takes an array of objects and returns an object with keys as genres and values as arrays of titles
 const groupByGenre = (arr) => {
@@ -106,31 +105,6 @@ const groupLibraryByGenre = (library) => {
 console.log(groupLibraryByGenre(library));
 
 //----- ALTERNATIVE SOLUTION 1 -----//
-// Alternative solution 1: Using map and Object.fromEntries
-// const groupByGenre = (arr) => {
-//   // Use map to create an array of [genre, title] pairs
-//   const pairs = arr.map((obj) => [obj.genre, obj.title]);
-//   // Use Object.fromEntries to create an object from the pairs array
-//   const obj = Object.fromEntries(pairs);
-//   // Return the object
-//   return obj;
-// };
-
-// const groupLibraryByGenre = (library) => {
-//   // Get the books and movies arrays from the library object
-//   const { books, movies } = library;
-//   // Use groupByGenre function to get an object with genres and book titles
-//   const booksByGenre = groupByGenre(books);
-//   // Use groupByGenre function to get an object with genres and movie titles
-//   const moviesByGenre = groupByGenre(movies);
-//   // Use Object.assign to merge the two objects into one
-//   const libraryByGenre = Object.assign({}, booksByGenre, moviesByGenre);
-//   // Return the library by genre object
-//   return libraryByGenre;
-// };
-
-//----- ALTERNATIVE SOLUTION 2 -----//
-
 //Using forEach and a helper function
 // const groupByGenre = (arr) => {
 //   // Create an empty object to store the genres and titles
