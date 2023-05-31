@@ -1,5 +1,5 @@
 //INSTRUCTIONS
-//Use a fp approach to writing a program that creates the output object below:
+//Use a fp approach to writing a program that outputs object below:
 // {
 //   classic: ["The Catcher in the Rye", "The Godfather", "Casablanca"],
 //   fantasy: [
